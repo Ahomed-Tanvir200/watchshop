@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+.logo a{
+    text-shadow: 2px 2px 30px deepskyblue;
+    font-weight: bold;
+    color: black;
+    font-size: 3.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+}
+.searchArea{
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgb(22, 22, 37);
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid rgb(8, 8, 40,0.2);
+}
+.searchBox input{
+    width: 100px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 0px 10px;
+    outline: none;
+}
+.searchBox input::placeholder{
+
+
+
+    color: #1d1d1d;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-family: poppins;
+}
+.iconArea{
+    position: fixed;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #c3f1ff;
+    box-shadow: 2px 2px 30px black 0.2;
+    padding: 5px 0px;
+    z-index: 1px;
+
+
+}
+.iconArea a{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+.iconArea a{
+    color: rgb(2, 2, 2);
+}
+
+.iconArea a:hover .fa-facebook{
+    color: blue;
+    
+}
+
+.iconArea a:hover .fa-youtube{
+    color: red;
+    
+}
+.iconArea a:hover .fa-twitter{
+    color:lightblue
+    rgb( 254, 218, 117);
+}
+
+
+.iconArea a:hover.fa-instagram{
+    color: rgb(254, 218, 117);
+}
+.section1{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+    display: flex;
+}
+
+.section1 img{
+     width: 700px;
+     margin-left: 80%;
+     background-color: #1BFFFF;
+    
+    
+    
+    
+    
+}
+.section1Button h1{
+    position: absolute;
+    top: 290px;
+    left: 10%;
+    font-size: 3rem;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.section1Button p{
+    position: absolute;
+    top: 185px;
+    left: 10%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: purple 2px 2px 30px;
+}
+    
+.section1Button .colorX{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #00586e;
+    text-shadow:#574c75 3px 3px 20px;
+
+}
+.section1Button .colorA{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #12872f;
+    text-shadow:#574c75 3px 3px 20px;
+
+}
+.section1Button .btn{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(8, 118, 118);
+    box-shadow: 2px 2px 30px black 0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+    position: absolute;
+    top: 300px;
+    left: 38%;
+}
+
+.btn:hover{
+    color: #acfd29;
+    background-color: rgb(56, 87, 230);
+
+}
+
+
+
+.productSection{
+    width: 85%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(254, 254, 254) 0%, rgb(52, 192, 220) 11%, rgb(19, 21, 21) 100%);
+
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+    left: 90px;
+
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 100%;
+
+}
+.productBox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+
+}
+.productBox img{
+    height: 250px;
+    border-radius: 10px;
+}
+
+.productSection h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #f0f48f;
+    text-decoration: double 1px black;
+    text-shadow: black 2px 2px 30px;
+}
+.productBox p{
+    color: #0c0c0c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.5;
+}
+.productBox a{
+    color: rgb(21, 21, 21);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.5;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.product button{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    transform: translate(-50%);
+    bottom: -20px;
+    left: 50%;
+    display: none;
+    animation: fade 0.2s;
+    font-weight: bold;
+
+}
+
+
+
+
+.product :hover button{
+    display: flex;
+    
+}
+
+.productBox :hover{
+    box-shadow: 2px 2px 30px rgb(255, 234, 140);
+    background-color: #ffffff;
+    
+}
+
+
+
+
+
+.Bags{
+    position: absolute;
+    width: 85%;
+    background: rgb(58,238,209);
+background: radial-gradient(circle, rgba(58,238,209,1) 0%, rgba(23,88,164,1) 100%);
+    background-size: 1000px;
+    align-items: center;
+    display: flex;
+    padding: 40px 20px;
+    left: 90px;
+    margin: 10px;
+    margin-left: 60px;
+    border-radius: 20px;
+    box-shadow: black 2px 2px 30px;
+
+
+}
+
+
+
+
+
+
+.Bags h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #dffc37;
+    text-decoration: double 1px black;
+    text-shadow: #0c0c0c 2px 2px 30px;
+}
+
+
+
+.bagAre{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 100%;
+
+
+
+}
+
+
+.bagBox{
+   
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+
+
+}
+
+.bagBox img{
+    height: 280px;
+    border-radius: 10px;
+}
+
+
+.bagBox img .bag2{
+    width: 200px;
+    height: 230px;
+    padding: 80px;
+}
+
+.bagBox button{
+
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    transform: translate(-50%);
+    bottom: -20px;
+    left: 50%;
+    display: none;
+    animation: fade 0.2s;
+    font-weight: bold;
+}
+
+
+.bagAre :hover button{
+    display: flex;
+    
+}
+
+.bagBox :hover{
+    box-shadow: 2px 2px 30px rgb(255, 234, 140);
+    background-color: #ffffff;
+    
+}
+
+
+.bagBox p{
+    color: #0c0c0c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.5;
+}
+
+
+.about{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+    left: 90px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px auto;
+    margin-top: 90%;
+    position:absolute;
+    background: rgb(58,237,238);
+background: linear-gradient(90deg, rgba(58,237,238,0.27512254901960786) 0%, rgba(215,215,215,1) 3%, rgba(37,236,160,1) 100%);
+    
+}
+
+.text img{
+    width: 380px;
+    border-radius: 40px;
+    background-color: #1BFFFF;
+}
+
+
+    
+.text{
+    width: 40%;
+    
+    
+}
+
+.text h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+.text h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    text-shadow: rgb(248, 69, 15) 5px 5px 50px;
+}
+
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150%;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ 
+
+
+@media (max-width:768px){
+    .logo a {
+        text-shadow: 2px 2px 30px deepskyblue;
+        font-weight: bold;
+        color: black;
+        font-size: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+        position: absolute;
+        left: -75px;
+    }
+}
